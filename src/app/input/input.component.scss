@@ -1,0 +1,55 @@
+.inp-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50rem;
+    flex-direction: column;
+    
+
+    div {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .inp {
+        width: 200px;
+        height: 50px;
+        border: 2px solid white;
+        outline: none;
+        background:none;
+        border-radius: 50px;
+        text-align: center;
+        color: white;
+
+    }
+
+    .caption {
+        margin-bottom: 30px;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 15px;
+        width: 200px;
+    }
+
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 1220px) {
+
+    .inp-div {
+        div {
+            flex-direction: column;
+        }
+
+        .inp {
+            margin-bottom: 20px;
+        }
+    }
+   
+  }
